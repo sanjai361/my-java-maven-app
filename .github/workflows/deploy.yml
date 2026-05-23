@@ -13,4 +13,6 @@ jobs:
 
       - name: Display Message
         run: echo "Hello Sanjai"
+      - name: Check Linux Version
+        run: uname -a
 
