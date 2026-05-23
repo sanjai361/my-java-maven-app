@@ -1,0 +1,8 @@
+name: Manual Workflow
+on:
+  workflow_dispatch: # This enables the manual trigger
+jobs:
+  greet:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hello, world!"
